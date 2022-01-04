@@ -1,6 +1,6 @@
 {
-    "name": "AGViewer",
-    "short_name": "AGViewer",
+    "name": "(Incubating) AGE Viewer",
+    "short_name": "(Incubating) AGE Viewer",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
