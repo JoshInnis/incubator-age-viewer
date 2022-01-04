@@ -24,17 +24,17 @@ import { ColoredLine, SubLabelLeft, SubLabelRight } from './SidebarComponents';
 const SidebarAbout = ({ releaseDate, version, license }) => (
   <div className="sidebar-setting">
     <div className="sidebar sidebar-header">
-      <h4>About AGViewer</h4>
+      <h4>About Incubating AGE Viewer</h4>
     </div>
     <div className="sidebar sidebar-body">
       <div className="form-group">
-        <b>Made by Bitnine</b>
+        <b>Made by Apache</b>
         <ColoredLine />
         <SubLabelLeft
           label={(
             <span>
               Visit us at
-              <a target="_blank" rel="noopener noreferrer" href="http://bitnine.net"> Bitnine!</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://age.apache.org/"> (incubating) Apache AGE</a>
             </span>
 )}
           classes="py-1"
@@ -68,7 +68,7 @@ const SidebarAbout = ({ releaseDate, version, license }) => (
             label={(
               <span>
                 Leave your feedback at
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/bitnine-oss/AGViewer/issues"> Here!</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/apache/incubator-age-viewer/issues"> Here!</a>
                 {' '}
                 <br />
                 Your feedback help us provide you better experience!
